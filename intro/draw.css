@@ -1,0 +1,61 @@
+body {
+    margin: 0%;
+    background-color: black;
+    font-family: cursive;
+}
+
+#flowtape {
+    width: 100%;
+    height: 100px;
+    background-image: url(https://ucsdguardian.org/wp-content/uploads/2020/02/Video-Games-Blog-752x440.jpg);
+    top: 0;
+    position: sticky;
+    border: black;
+    border-style: solid;
+    border-left: none;
+    border-top: none;
+    /* content */
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+#flowtape {
+    animation: mymove 7s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+}
+
+footer {
+    height: 250px;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-vector/set-objects-related-video-games-neon-linear-style_24908-58670.jpg?size=626&ext=jpg);
+}
+
+#about-us {
+    font-family: fantasy;
+    font-size: 35px;
+    padding-left: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#contact {
+    font-size: 12px;
+    text-decoration: solid;
+    font-weight: 900;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    background-color: rgba(153, 104, 245, 0.445);
+}
